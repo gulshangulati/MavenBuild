@@ -6,10 +6,7 @@ on:
  - master
  - 'releases/**'
  pull_request:
- branches: 
- - master
- - 'releases/**'
-jobs:
+ jobs:
  Basic-Workflow:
  runs-on: ubuntu-latest
  steps:
